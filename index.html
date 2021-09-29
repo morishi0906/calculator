@@ -1,0 +1,39 @@
+   <!DOCTYPE html>
+   <html lang="jp">
+       <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+       <link rel="stylesheet" href="main.css">
+        <title>電卓</title>
+       </head>
+       <body>
+          <div class="calculator">
+            <div class="backcolor">
+                <div id="solar"></div>    
+                <input id="result" type="text" value="" readonly>
+            </div>
+            <div class="numbers">
+               <input class="btn" name="number" type="button" value="7" onclick = "display('7');countUp()">
+               <input class="btn" id="number8" type="button" value="8" onclick = "display('8');countUp()">
+               <input class="btn" id="number9" type="button" value="9" onclick = "display('9');countUp()">
+               <input class="btn" id="divided" type="button" value="÷ /" onclick = "display('/')">
+               <input class="btn" id="number4" type="button" value="4" onclick = "display('4');countUp()">
+               <input class="btn" id="number5" type="button" value="5" onclick = "display('5');countUp()">
+               <input class="btn" id="number6" type="button" value="6" onclick = "display('6');countUp()">
+               <input class="btn" id="multiplied" type="button" value="× *" onclick = "display('*')">
+               <input class="btn" id="number1" type="button" value="1" onclick = "display('1');countUp()">
+               <input class="btn" id="number2" type="button" value="2" onclick = "display('2');countUp()">
+               <input class="btn" id="number3" type="button" value="3" onclick = "display('3');countUp()">
+               <input class="btn" id="minus" type="button" value="-" onclick = "display('-')">
+               <input class="btn" id="number0" type="button" value="0" onclick = "display('0')">
+               <input class="btn" id="numberW0" type="button" value="00" onclick = "display('00')">
+               <input class="btn" id="numberDot" type="button" value="." onclick = "display('.')">
+               <input class="btn" id="plus" type="button" value="+" onclick = "display('+')">
+               <input class="btn btn3" id="backSpace" type="button" value="BS" onclick = "pushBackSpase()">
+               <input class="btn2" id="equal" type="button" value="=" onclick = "calculate()">
+               <input class="btn btn3" id="allClear" type="button" value="AC" onclick = "clearScreen()">
+            </div>
+         </div>  
+         <script src="main.js"></script>
+       </body>
+   </html>

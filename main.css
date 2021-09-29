@@ -1,0 +1,88 @@
+.calculator {
+    border: 2px solid #bbb;
+    background-color: #eee;
+    width: 400px;
+    height: 600px;
+    margin: 20px 0 0 20px;
+    box-shadow: 0 20px #bbb;
+    border-radius: 20px 20px;
+}
+
+.backcolor {
+    color: #fff;
+    background-color: #2df;
+    border: 1px solid #1aa;
+    margin: 10px 5px 0;
+    border-radius: 15px 15px;
+}
+
+#solar {
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    font-size: 8px;
+    background-color: #222;
+    width: 120px;
+    height: 15px;
+    margin: 15px auto;
+}
+
+#result {
+    text-align: right;
+    color: #000;
+    border: 1px solid #444;
+    background-color: #464;
+    font-size: 57px;
+    width: 370px;
+    height: 65px;
+    margin: 20px 5px;
+    padding: 10px 0;
+}
+
+.numbers {
+    width: 380px;
+    margin: 10px 28px;
+}
+
+
+.btn {
+    width: 70px;
+    height: 55px;
+    margin: 10px 6px;
+    color: #4be;
+    background-color: #eee;
+    font-size: 24px;
+    border: 1px solid #bbb; 
+    border-radius: 10px 10px;
+    box-shadow: 0 5px #bbb;
+}
+
+.btn2 {
+    width: 155px;
+    height: 55px;
+    margin: 10px 6px;
+    color: #4be;
+    background-color: #eee;
+    font-size: 24px;
+    border: 1px solid #bbb; 
+    border-radius: 10px 10px;
+    box-shadow: 0 5px #bbb;
+}
+
+.btn3 {
+    color: #fff;
+    background-color: #8ef;
+}
+
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.btn2:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
